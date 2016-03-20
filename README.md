@@ -263,6 +263,9 @@ are dictionaries from option names to values.
 
 ### Plugins
 
+A curated list of available plugins is available in the
+[Dotbot wiki](https://github.com/anishathalye/dotbot/wiki/List-of-Plugins).
+
 Dotbot also supports custom directives implemented by plugins. Plugins are
 implemented as subclasses of `dotbot.Plugin`, so they must implement
 `can_handle()` and `handle()`. The `can_handle()` method should return `True`
